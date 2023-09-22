@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notebook</title>
+    <title>Form Example</title>
 </head>
 <body>
-  
+    <h1>Sample Form</h1>
+    <form method="POST">
+        Name: <input type="text" name="name" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Message:<br>
+        <textarea name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
-
